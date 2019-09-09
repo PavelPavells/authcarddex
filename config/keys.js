@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: "YOUR_MONGO_URI_HERE",
+  mongoURI: "mongodb://pavel:Orelgrad1695@ds121726.mlab.com:21726/carddex_db",
   secretOrKey: "secret"
 };

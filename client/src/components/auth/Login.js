@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import classnames from "classnames";
-import Footer from "../layout/Footer";
+//import Footer from "../layout/Footer";
 class Login extends Component {
   constructor() {
     super();
@@ -53,7 +53,7 @@ class Login extends Component {
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-                <b>Login</b>
+                <b>LOGIN</b>
               </h4>
               <p className="grey-text text-darken-1">
                 Don't have an account? <Link to="/register">Register</Link>
@@ -94,7 +94,6 @@ class Login extends Component {
                   {errors.passwordincorrect}
                 </span>
               </div>
-              <Footer />
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{

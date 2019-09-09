@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
 import classnames from "classnames";
-import Footer from "../layout/Footer";
+//import Footer from "../layout/Footer";
 class Register extends Component {
   constructor() {
     super();
@@ -54,7 +54,7 @@ class Register extends Component {
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-                <b>Register</b>
+                <b>REGISTER</b>
               </h4>
               <p className="grey-text text-darken-1">
                 Already have an account? <Link to="/login">Log in</Link>
@@ -163,7 +163,6 @@ class Register extends Component {
               </div>
             </form>
           </div>
-          <Footer />
         </div>
       </div>
     );
